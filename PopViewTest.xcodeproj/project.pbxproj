@@ -21,6 +21,8 @@
 		F3825A961993DF94003D3F64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3825A781993DF94003D3F64 /* UIKit.framework */; };
 		F3825A9E1993DF94003D3F64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3825A9C1993DF94003D3F64 /* InfoPlist.strings */; };
 		F3825AA01993DF94003D3F64 /* PopViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3825A9F1993DF94003D3F64 /* PopViewTestTests.m */; };
+		F3825AB21993E2A6003D3F64 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3825AB01993E2A6003D3F64 /* PopViewController.m */; };
+		F3825AB31993E2A6003D3F64 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3825AB11993E2A6003D3F64 /* PopViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		F3825A9B1993DF94003D3F64 /* PopViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		F3825A9D1993DF94003D3F64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3825A9F1993DF94003D3F64 /* PopViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewTestTests.m; sourceTree = "<group>"; };
+		F3825AAF1993E2A6003D3F64 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		F3825AB01993E2A6003D3F64 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		F3825AB11993E2A6003D3F64 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				F3825A861993DF94003D3F64 /* Main.storyboard */,
 				F3825A891993DF94003D3F64 /* ViewController.h */,
 				F3825A8A1993DF94003D3F64 /* ViewController.m */,
+				F3825AAF1993E2A6003D3F64 /* PopViewController.h */,
+				F3825AB01993E2A6003D3F64 /* PopViewController.m */,
+				F3825AB11993E2A6003D3F64 /* PopViewController.xib */,
 				F3825A8C1993DF94003D3F64 /* Images.xcassets */,
 				F3825A7B1993DF94003D3F64 /* Supporting Files */,
 			);
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3825AB31993E2A6003D3F64 /* PopViewController.xib in Resources */,
 				F3825A8D1993DF94003D3F64 /* Images.xcassets in Resources */,
 				F3825A7F1993DF94003D3F64 /* InfoPlist.strings in Resources */,
 				F3825A881993DF94003D3F64 /* Main.storyboard in Resources */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3825AB21993E2A6003D3F64 /* PopViewController.m in Sources */,
 				F3825A8B1993DF94003D3F64 /* ViewController.m in Sources */,
 				F3825A851993DF94003D3F64 /* AppDelegate.m in Sources */,
 				F3825A811993DF94003D3F64 /* main.m in Sources */,

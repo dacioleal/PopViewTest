@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPopoverControllerDelegate>
+
+@property (strong, nonatomic) UIPopoverController *popoverController;
+
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+- (IBAction)pushButton:(UIButton *)sender;
 
 @end
